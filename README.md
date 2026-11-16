@@ -3,6 +3,7 @@
 > **Explore the Changing Universe. Discover What Moves. Understand What Changes.**
 
 SKYVERSE is a unified astronomical exploration platform providing public access to genuine NASA SPHEREx observations, multi-epoch astronomical comparisons, 102-channel infrared spectroscopy, Gaia DR3 astrometric cross-matching, and a citizen-science discovery workflow.
+
 <img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/8fadc80c-730a-42bb-b5ea-7e1534f5857c" />
 
 ---
