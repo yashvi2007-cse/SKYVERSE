@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sky-primary: #050711;
+  --color-sky-secondary: #090D1C;
+  --color-sky-card: #10182A;
+  --color-sky-card-hover: #162238;
+  --color-sky-border: rgba(148, 163, 184, 0.12);
+  --color-sky-border-light: #1E2D45;
+  --color-sky-accent: #8B5CF6;
+  --color-sky-cyan: #38BDF8;
+  --color-sky-purple: #A78BFA;
+  --color-sky-amber: #FBBF24;
+  --color-sky-emerald: #34D399;
+  --color-sky-rose: #F43F5E;
+  --color-sky-text: #F8FAFC;
+  --color-sky-muted: #94A3B8;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  background-color: #050711;
+  color: #F8FAFC;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+code, pre, .font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Custom astronomical scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090D1C;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8B5CF6;
+}
+
+/* Glassmorphism surfaces */
+.glass-panel {
+  background: rgba(16, 24, 42, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.glass-panel-elevated {
+  background: rgba(22, 34, 56, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 0 20px -5px rgba(139, 92, 246, 0.15);
+}
+
+/* Glow shadows */
+.shadow-glow-purple {
+  box-shadow: 0 0 25px -5px rgba(139, 92, 246, 0.4);
+}
+
+.shadow-glow-cyan {
+  box-shadow: 0 0 25px -5px rgba(56, 189, 248, 0.35);
+}
+
+/* Astronomical crosshair */
+.cursor-crosshair-astro {
+  cursor: crosshair;
+}

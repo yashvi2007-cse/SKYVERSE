@@ -1,0 +1,48 @@
+{
+  "match_found": true,
+  "status": "Likely Astrometric Counterpart",
+  "confidence": "High",
+  "matching_method": "Nearest neighbor cross-match within 5.0\" search aperture",
+  "scientific_disclaimer": "Gaia DR3 reference data provides supporting astrometry. Positional proximity does not establish confirmed physical identity without multi-wavelength spectral confirmation.",
+  "best_match": {
+    "source_id": "4472832130942575872",
+    "ra": 269.452084,
+    "dec": 4.69339,
+    "separation_arcsec": 0.0,
+    "parallax_mas": 546.976,
+    "parallax_error_mas": 0.04,
+    "distance_pc": 1.83,
+    "pmra_mas_yr": -798.58,
+    "pmra_error_mas_yr": 0.05,
+    "pmdec_mas_yr": 10328.12,
+    "pmdec_error_mas_yr": 0.05,
+    "total_pm_mas_yr": 10358.0,
+    "phot_g_mean_mag": 9.54,
+    "phot_bp_mean_mag": 11.2,
+    "phot_rp_mean_mag": 8.1,
+    "bp_rp_color": 3.1,
+    "radial_velocity_km_s": -110.5
+  },
+  "candidates_count": 1,
+  "candidates": [
+    {
+      "source_id": "4472832130942575872",
+      "ra": 269.452084,
+      "dec": 4.69339,
+      "separation_arcsec": 0.0,
+      "parallax_mas": 546.976,
+      "parallax_error_mas": 0.04,
+      "distance_pc": 1.83,
+      "pmra_mas_yr": -798.58,
+      "pmra_error_mas_yr": 0.05,
+      "pmdec_mas_yr": 10328.12,
+      "pmdec_error_mas_yr": 0.05,
+      "total_pm_mas_yr": 10358.0,
+      "phot_g_mean_mag": 9.54,
+      "phot_bp_mean_mag": 11.2,
+      "phot_rp_mean_mag": 8.1,
+      "bp_rp_color": 3.1,
+      "radial_velocity_km_s": -110.5
+    }
+  ]
+}

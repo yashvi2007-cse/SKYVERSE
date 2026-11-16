@@ -1,0 +1,8 @@
+{
+  "match_found": false,
+  "status": "No Gaia DR3 Counterpart Found",
+  "message": "No optical counterpart detected in Gaia DR3 within 5.0\" radius. Target may be an ultra-cold infrared source (such as a Y-dwarf or heavily obscured protostar) below Gaia optical detection limit (G > 21 mag).",
+  "matching_radius_arcsec": 5.0,
+  "best_match": null,
+  "candidates": []
+}
